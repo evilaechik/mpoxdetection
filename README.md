@@ -32,8 +32,99 @@ We, Artyom Lavrentyev and Yedigeyev Galym, have implemented this bot in website 
   - F1-Score: **95%**
 
 ---
+# Setup Instructions to Website Application
 
-## **Setup Instructions**
+## Prerequisites
+Before setting up this project, ensure you have the following installed on your system:
+- [Python 3.8 or higher](https://www.python.org/downloads/)
+- [Git](https://git-scm.com/downloads)
+- [Git LFS](https://git-lfs.github.com/)
+- A code editor or IDE of your choice (e.g., [VS Code](https://code.visualstudio.com/))
+- [Virtualenv](https://virtualenv.pypa.io/) (optional, but recommended for managing dependencies)
+
+---
+
+## Step 1: Clone the Repository
+1. Open a terminal or command prompt.
+2. Clone the repository to your local machine using Git:
+   ```bash
+   git clone git@github.com:evilaechik/mpoxdetection.git
+   ```
+3. Navigate into the project directory:
+   ```bash
+   cd mpoxdetection
+   ```
+
+---
+
+## Step 2: Install Git LFS
+This project uses Git Large File Storage (LFS) for managing large files. Install and initialize Git LFS:
+1. Install Git LFS by following the instructions for your operating system: https://git-lfs.github.com/
+2. Initialize Git LFS in the repository:
+   ```bash
+   git lfs install
+   ```
+
+---
+
+## Step 3: Install Dependencies
+It is recommended to use a virtual environment to manage dependencies.
+
+1. Create a virtual environment (optional):
+   ```bash
+   python -m venv venv
+   ```
+2. Activate the virtual environment:
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## Step 4: Configure the Project
+If the project requires configuration (e.g., API keys, database settings), create and edit the `.env` file.
+
+1. Create a `.env` file in the root directory:
+   ```bash
+   cp .env.example .env
+   ```
+2. Open the `.env` file and update the necessary environment variables.
+
+---
+
+## Step 5: Run the Project
+Run the project locally to ensure everything is working correctly:
+```bash
+python main.py
+```
+
+---
+
+## Step 6: Verify Installation
+1. Open your browser and navigate to the URL specified in the console (e.g., `http://127.0.0.1:5000/`).
+2. Ensure all functionality is working as expected.
+
+---
+
+## Troubleshooting
+- **Error: Permission denied (publickey)**: Ensure you have added your SSH key to your GitHub account. Follow the instructions here: [Adding an SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+- **Dependencies not installing**: Make sure you are using the correct version of Python and that your virtual environment is activated.
+- **Missing large files**: Ensure Git LFS is installed and initialized. Run `git lfs pull` to fetch large files.
+
+---
+
+If you encounter issues during setup, feel free to create an issue in the repository or reach out to the repository maintainers for assistance.
+
+## **Setup Instructions to Telegram Bot**
 
 ### **1. Clone the Repository**
 ```bash
