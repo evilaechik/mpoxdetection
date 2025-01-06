@@ -2,7 +2,6 @@
 
 ## **Overview**
 The Monkeypox Detection Bot is an AI-based solution designed to assist healthcare professionals in diagnosing skin diseases, including mpox (monkeypox), measles, chickenpox, cowpox, HFMD, and healthy skin conditions. Using a fine-tuned VGG16 convolutional neural network, the bot achieves an impressive **95% accuracy** and is accessible via a Telegram chatbot.
-We, Artyom Lavrentyev and Yedigeyev Galym, have implemented this bot in website which we run on local host.
 
 ---
 
@@ -180,6 +179,5 @@ This project is licensed under a **custom license**. The code for the training a
 ## **Contact**
 For any inquiries, feel free to reach out:
 - **Email**: artem@stemolympiads.kz
-  galymtashtek@gmail.com   
 - **GitHub**: [evilaechik](https://github.com/evilaechik)
-  [Galym7707](https://github.com/Galym7707) 
+  
