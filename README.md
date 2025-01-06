@@ -104,7 +104,7 @@ If the project requires configuration (e.g., API keys, database settings), creat
 ## Step 5: Run the Project
 Run the project locally to ensure everything is working correctly:
 ```bash
-python main.py
+python app.py
 ```
 
 ---
