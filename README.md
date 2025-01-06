@@ -90,7 +90,7 @@ It is recommended to use a virtual environment to manage dependencies.
 
 ---
 
-## Step 4: Configure the Project
+## Step 4: Configure the Project (Optional)
 If the project requires configuration (e.g., API keys, database settings), create and edit the `.env` file.
 
 1. Create a `.env` file in the root directory:
