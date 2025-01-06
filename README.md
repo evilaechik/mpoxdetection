@@ -89,6 +89,6 @@ This project is licensed under a **custom license**. The code for the training a
 ## **Contact**
 For any inquiries, feel free to reach out:
 - **Email**: artem@stemolympiads.kz
--            galymtashtek@gmail.com   
+- galymtashtek@gmail.com   
 - **GitHub**: [evilaechik](https://github.com/evilaechik)
 -             [Galym7707](https://github.com/Galym7707) 
